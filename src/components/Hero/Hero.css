@@ -1,0 +1,35 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero h1 span{
+    color: blue;
+}
+.hero img{
+    margin-top: 60px;
+    max-width: 300px;
+    max-height: 250px;
+    border-radius: 130px;
+}
+
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.connect-me{
+    background-color: bisque;
+    border-radius: 40px;
+    padding: 20px 35px;
+    color: black;
+    cursor: pointer;
+}
+.myresume{
+    background-color: bisque;
+    color: black;
+    border-radius: 40px;
+    padding: 20px 50px;
+    cursor: pointer;
+}
